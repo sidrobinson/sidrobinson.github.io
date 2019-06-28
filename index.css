@@ -1,0 +1,158 @@
+/* .body {
+    background-color: aqua;
+}
+
+.nav nav-tabs {
+    margin-bottom: 100px;
+} */
+
+/* New code */
+/* .navbar {
+    overflow: hidden;
+    background-color: grey;
+    font-family: Arial;
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 100%;
+  } */
+
+.navbar {
+    background-color: turquoise;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    padding: 30px;
+    width: 400px;
+    margin-left: 350px;
+
+    /* makes border circular below */
+    border-radius: 50%;
+}
+  
+  /* Links inside the navbar */
+.navbar a {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 20px;
+    /* float: right; */
+    /* text-decoration: none; */
+    /* position: relative; */
+}
+  
+  /* The dropdown container */
+  /* .dropdown {
+    float: right;
+    overflow: hidden;
+  } */
+  
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* For mobile conversion */
+}
+  
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: aqua;
+}
+  
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Substance */
+.aboutMe {
+    margin-top: 30px;
+    font-size: 30px;
+    border: 100%;
+    width:100%; 
+    height:1px; 
+    background: grey
+}
+#summary {
+    margin-top: 50px;
+    font-size: 18px;
+}
+.classAssignments {
+    margin-top: 30px;
+    font-size: 30px;
+    border: 100%;
+    width:100%; 
+    height:1px; 
+    background: grey
+}
+.myProjects {
+    margin-top: 30px;
+    font-size: 30px;
+    border: 100%;
+    width:100%; 
+    height:1px; 
+    background: grey
+}
+.myManager {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding: 45px;
+    font-size: 25px;
+}
+
+.myManagerApp {
+    margin-top: -76px;
+    margin-left: 300px;
+    font-size: 25px;
+    /* padding-left: 20px; */
+    /* padding: 45px; */
+}
+
+/* End of Substance */
+
+/* Footer styling -- KEEP */
+#footer {
+    position: absolute;
+    margin-bottom: 100%;
+    width: 50%;
+    margin-top: 30px;
+    border: 100%;
+    width:100%; 
+    height:1px; 
+    background: grey
+    /* font-size: 30px; */
+    /* bottom: 10px; */
+    /* margin-top: 500px; */
+}
+  /* End of footer styling */
